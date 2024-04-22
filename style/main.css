@@ -83,3 +83,45 @@
  }
     
 }
+@media screen and (max-width:250px){
+    .main{
+       grid-template-columns: 1fr 1fr;
+    }
+    .priceholder{
+        display:inline-block;
+        position: absolute;
+        width:120px;
+        background-color:#020101;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        height:10px;
+        opacity:0.6;
+        border: 0;
+     
+    }
+    .buy{
+        font-size: 8px;
+        border-radius:10px;
+        border: 1px solid gold;
+        background-color:gray;
+        color:whitesmoke;
+        width:20px;
+        height:10px;
+    }
+    .picholder{
+        position:relative;
+        width:100px;
+        height:100px;
+    
+    }
+    .info{
+        display:inline-block;
+        font-size:8px;
+        margin: 0;
+    }
+
+    
+
+}
+
