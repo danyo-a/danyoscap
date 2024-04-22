@@ -1,0 +1,81 @@
+body{
+text-align: center;
+background-color:white;
+margin-bottom: 500px;
+margin-top:80px;
+width:100%;
+
+
+}
+
+
+h1{
+    color:white;
+    text-align:center;
+}
+
+
+
+
+
+
+p{
+    color:whitesmoke;
+    font-size:25px;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.ordertb td{
+    border: solid 1px silver;
+    height: 50px;
+
+}
+
+.sidenav{
+ display:flex;
+ flex-direction: column;
+ align-items:center;
+ flex-shrink: 0;
+ height:100%;
+ width:0;
+ position:fixed;
+ top:0px;
+ left:0px;
+ background-color:#111;
+ overflow-x:hidden;
+ transition: 0.5s;
+ z-index: 200;
+
+            
+}
+
+.sidenav .closebtn {
+    position:absolute;
+    top:0px;
+    right:0px;
+    font-size: 40px;
+    padding:0 0 10px 30px ;
+    width:40px;
+    height:40px;
+    border: 0px ;
+    background-color: #111;
+
+    
+}
+.sidenav .closebtn:hover{
+    background-color: #111;
+    color:lightcoral;
+}
+     
+.sidenavbar{
+    display:grid;
+    grid-template-rows:40px;
+    width:100px;
+    margin-top:50px;
+    background-color: white;
+    text-align: center;
+}
+.sidenavbar a{
+    vertical-align:center;
+}

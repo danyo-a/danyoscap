@@ -1,0 +1,161 @@
+body{
+    text-align:center;
+} 
+.loginform{
+    display:inline-block; 
+    padding: 20px; 
+    text-align:center; 
+    width: 400px; 
+    height:600px; 
+    background-color:gray; 
+
+}
+input{
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(237, 250, 246);
+    font-size:20px;
+}
+
+.loginbt{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:gray;
+    border-radius: 5px;
+    border:2px solid black;
+    margin-top:20px;
+    
+}
+.loginbt:hover{
+    color: white;
+    background-color: rgb(50, 155, 187);
+    border:0px;
+}
+h1{
+    color:white;
+
+}
+p{
+    font-size:30px;
+    margin:5px;
+}
+.movingitm{
+    display:block;
+    margin-top: 20px;
+    margin-right:5px;
+}
+#ball1{
+    display:block;
+    position:relative;
+    width:20px;
+    height: 20px;
+    background-color:red;
+    border-radius:50px;
+    animation-name:ball;
+    animation-duration:10s;
+    animation-delay:1s ;
+
+    
+
+
+}
+#ball2{
+    display:block;
+    position:relative;
+    width:20px;
+    height: 20px;
+    background-color:red;
+    border-radius:50px;
+    animation-name:ball;
+    animation-duration:5s;
+    animation-delay:2s;
+
+    
+
+
+}
+#ball3{
+    display:block;
+    position:relative;
+    width:20px;
+    height: 20px;
+    background-color:red;
+    border-radius:50px;
+    animation-name:ball;
+    animation-duration:5s;
+    animation-delay:3s;
+    
+
+    
+
+
+}
+@keyframes ball 
+{
+  
+    0%{
+        left:0px;
+        top:0px;
+    }
+    5%{
+        left:10px;
+        top:20px;
+    }
+    10%{
+        left:20px;
+        top:0px;
+    }
+    15%{
+        left:30px;
+        top:-20px;
+    }
+    20%{
+        left:40px;
+        top:0px;
+    }
+    25%{
+        left:50px;
+        top:20px;
+    }
+    30%{
+        left:60px;
+        top:0px;
+    }
+    35%{
+        left:70px;
+        top:-20px;
+    }
+    40%{
+        left:80px;
+        top:0px;
+    }
+    45%{
+        left:110px;
+        top:20px;
+    }
+    50%{
+        left:150px;
+        top:20px;
+    }
+    60%{
+        left:200px;
+        top:20px;
+    }
+    70%{
+        left:90px;
+        top:20px;
+    }
+    80%{
+        left:220px;
+        top:20px;
+    }
+    90%{
+        left:240px;
+        top:20px;
+    }
+    100%{
+        left:300px;
+        top:20px;
+    }
+    
+}
